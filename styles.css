@@ -1,0 +1,113 @@
+/* Disney+ Speed Controller - Styles */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121926;
+    color: white;
+}
+
+.container {
+    width: 300px;
+    padding: 16px;
+}
+
+h1 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 16px;
+    color: #1a91ff;
+}
+
+.speed-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.speed-btn {
+    background-color: #1f2937;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.speed-btn:hover {
+    background-color: #374151;
+}
+
+.speed-btn.active {
+    background-color: #1a91ff;
+    color: white;
+}
+
+.custom-speed {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.custom-speed label {
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+#custom-speed-input {
+    width: 60px;
+    background-color: #1f2937;
+    color: white;
+    border: 1px solid #374151;
+    border-radius: 4px;
+    padding: 6px;
+}
+
+#apply-custom-speed {
+    background-color: #1a91ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+#apply-custom-speed:hover {
+    background-color: #0d84ec;
+}
+
+.status {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.status p {
+    margin: 0;
+    font-size: 14px;
+}
+
+#current-speed {
+    font-weight: bold;
+    color: #1a91ff;
+}
+
+.footer {
+    border-top: 1px solid #374151;
+    padding-top: 12px;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 12px;
+    color: #9ca3af;
+}
